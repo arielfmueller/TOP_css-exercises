@@ -1,0 +1,28 @@
+/* odd elements: 
+light red/pink background,
+list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback*/
+
+.odd {
+    background-color: lightpink;
+    font-family: Verdana, 'DejaVu Sans', 'sans-serif';
+}
+
+/* Second element: blue text and a font size of 36px */
+#blue-element {
+    color: blue;
+    font-size: 36px;
+}
+
+/* Third element: in addition to the styles for all odd numbered elements,
+add a font size of 24px */
+
+.size {
+    font-size: 24px;
+}
+
+/* Fourth element**: a light green background, a font size of 24px, and bold*/
+
+.green-element {
+    background-color: lightgreen;
+    font-weight: bold;
+}
